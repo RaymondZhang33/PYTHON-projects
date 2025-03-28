@@ -1,0 +1,30 @@
+"""
+~~ AP CSP Create Task ~~
+
+Requirements:
+◆ the user (including user actions that trigger events)
+◆ a device
+◆ an online data stream
+◆ a file
+◆ the procedure’s name
+◆ the return type (if necessary)
+◆ one or more parameters
+◆ An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure
+◆ Calls to your student-developed procedure
+◆ Instructions for output (tactile, audible, visual, or textual) based on input and program functionality
+
+"""
+
+def generate_salt():
+    chars = [
+        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '[', ']', '{', '}', '|', '\\', ';', ':', '\'', '\"', ',', '<', '>', '.', '/', '?', '`', '~'
+    ]
+    salt = ""
+    for i in range(len(chars)):
+        
+
+text = str(input("Enter the text you would like to encrypt: "))
+    
+def encrypt():
+
+def decrypt():
